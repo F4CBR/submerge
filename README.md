@@ -1,5 +1,5 @@
 ## All in One tools for Subdomain Recon
-Pencarian subdomain meliputi <b>Subfinder, assetfinder, shosubgo, sublist3r.</b> <br><br>
+Pencarian subdomain meliputi <b>subfinder, assetfinder, shosubgo, sublist3r.</b> <br><br>
 
 ### Cara menjalankan:
 ```
