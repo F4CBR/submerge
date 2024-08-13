@@ -2,7 +2,7 @@
 
 # Function to display help
 function show_help {
-    echo "Usage: $0 -d domain -s api_key"
+    echo "Usage: ./sudira.sh -d domain -s api_key"
     echo ""
     echo "Options:"
     echo "  -d domain   Specify the domain to enumerate subdomains for."
