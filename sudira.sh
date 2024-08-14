@@ -38,6 +38,9 @@ cat domain1.txt domain2.txt domain3.txt domain4.txt | anew > final.txt
 # Filter for active domains
 httpx -mc 200 -l final.txt -o aktif.txt
 
+# Remove lines from aktif.txt that do not contain the domain
+grep -i "$domain" aktif.txt > temp.txt && mv temp.txt aktif.txt
+
 # Clean up intermediate files
 rm domain1.txt domain2.txt domain3.txt domain4.txt final.txt
 
