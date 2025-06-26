@@ -6,5 +6,5 @@ Pencarian subdomain meliputi <b>subfinder, assetfinder, shosubgo, sublist3r.</b>
 git clone https://github.com/F4CBR/submerge
 cd submerge
 chmod +x submerge.py
-./submerge.py -d domain.com -s shodan_api_key
+./submerge.py -d domain-file-list -s shodan_api_key
 ```
